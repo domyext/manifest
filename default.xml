@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="domyext"
+           fetch="https://android.googlesource.com" />
+
+  <default revision="main"
+           remote="domyext"
+           sync-j="4" />
+
+  <project path="manifest" name="manifest" groups="frontend" />
+
+  <project path="home" name="domyext.github.io" groups="frontend" />
+  <project path="dashboard" name="dashboard" groups="frontend" />
+  <project path="signin" name="signin" groups="frontend" />
+  <project path="auth" name="auth" groups="frontend" />
+
+  <project path="api" name="domyext" groups="backend" />
+  <project path="telebot" name="domytele" groups="bot" />
+
+</manifest>
