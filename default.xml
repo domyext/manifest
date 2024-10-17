@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="domyext"
-           fetch="https://android.googlesource.com" />
+           fetch="https://github.com/domyext" />
 
   <default revision="main"
            remote="domyext"
